@@ -5,6 +5,10 @@ A question-answering system that plans its own searches, checks what it found, a
 This README defines the six workstreams that build it, what each one owns, and the contracts between them. Each workstream can be owned by one person, several people, or the same person as the others. The boundaries stay the same either way.
 
 ---
+## Group Responsibilities
+Michael Carlos Damasceno Lima: Agents
+
+---
 
 ## How it fits together
 

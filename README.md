@@ -6,8 +6,18 @@ This README defines the six workstreams that build it, what each one owns, and t
 
 ---
 ## Group Responsibilities
-Michael Carlos Damasceno Lima: Agents
 
+Each person owns one role for the 7-day sprint. To sign up, put your name next to a role that's still open and open a pull request. One person per role; if two people want the same one, sort it out before Day 1 standup.
+
+| Role | Name | Owns |
+|---|---|---|
+| P1 · Platform & Eval | _open_ | `core/`, `docker-compose.yml`, `Makefile`, CI, `evals/`, `logs/` |
+| P2 · Ingestion | _open_ | `ingestion/`, `data/raw/`, `data/processed/` |
+| P3 · Retrieval | _open_ | `retrieval/`, `data/eval/golden.jsonl` |
+| P4 · Agent | Michael Carlos Damasceno Lima | `agent/`, `configs/prompts/` |
+| P5 · API, UI & Delivery | _open_ | `api/`, `ui/`, `docs/`, `Dockerfile` |
+
+Not sure which to pick? Read "Good fit if" under each role.
 ---
 
 ## How it fits together
